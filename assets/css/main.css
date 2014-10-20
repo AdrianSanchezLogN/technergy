@@ -412,7 +412,7 @@ a:after {
 /* Section Dividers Backgrounds */
 
 .divider1 {
-	background-image: url('../img/bg/divider1.jpg')
+	background-image: url('../img/20140627_165353.jpg');
 }
 
 .divider2 {
@@ -662,4 +662,27 @@ a:after {
     margin-right: 15%;
     padding-bottom: 20px;
     padding-top: 20px;
+}
+
+.first_word{
+    color: #9AB239;
+    font-weight: bold;
+}
+
+p{
+    font-size: larger;
+}
+
+.paragraph{
+    font-size: larger;
+    text-align: left;
+}
+
+.values_list p{
+    margin-bottom: 0px;
+}
+
+.icon-linkedin{
+    color: #3498db;
+    font-size: 110%;
 }

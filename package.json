@@ -1,7 +1,23 @@
 {
   "name": "Technergy",
-  "version": "0.0.0",
-  "dependencies": {},
+  "version": "0.0.0-3",
+  "dependencies": {
+    "mongodb": "*",
+    "express": "3.x",
+    "paypal-rest-sdk": "0.6.4",
+    "node-uuid": "*",
+    "dustjs-linkedin": "*",
+    "dustjs-helpers": "*",
+    "consolidate": "*",
+    "nodemailer": "*",
+    "cron": "*",
+    "underscore": "*",
+    "winston": "*",
+    "crypto": "*",
+    "cookie-parser": "*",
+    "body-parser": "*",
+    "cookie-session": "*"
+  },
   "devDependencies": {
     "mongodb": "*",
     "express": "3.x",
@@ -21,5 +37,9 @@
   },
   "engines": {
     "node": ">=0.8.0"
+  },
+  "subdomain": "technergy",
+  "scripts": {
+    "start": "node server.js"
   }
 }
