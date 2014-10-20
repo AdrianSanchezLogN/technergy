@@ -1,6 +1,6 @@
 {
   "name": "Technergy",
-  "version": "0.0.0-3",
+  "version": "0.0.0-5",
   "dependencies": {
     "mongodb": "*",
     "express": "3.x",

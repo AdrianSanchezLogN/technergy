@@ -686,3 +686,10 @@ p{
     color: #3498db;
     font-size: 110%;
 }
+
+.divider1 .container{
+    background:rgba(0, 0, 0, 0.5);
+}
+.subtitle{
+    font-size: 60%;
+}
