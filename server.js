@@ -401,5 +401,6 @@ app.get('*', function (req, res) {
 });
 
 // Listening port
-app.listen(9000);
-console.log('Listening on port 9000...');
+var port = Number(process.env.PORT || 9000);
+app.listen(port);
+console.log('Listening on port ' + port + '...');
